@@ -8,7 +8,7 @@ db = client.minipro
 
 @app.route('/')
 def home():
-    return render_template('team_first.html')
+    return render_template('main.html')
 
 
 @app.route("/project", methods=["POST"])
